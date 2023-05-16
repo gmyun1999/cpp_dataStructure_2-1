@@ -14,6 +14,7 @@ void print_queue(T q) {
     }
     std::cout << '\n';
 }
+void
 
 int main() {
     priority_queue<int> q;
