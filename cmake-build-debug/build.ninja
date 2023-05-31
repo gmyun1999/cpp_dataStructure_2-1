@@ -79,6 +79,12 @@ build CMakeFiles/cpp_.dir/assignment_n2.cpp.obj: CXX_COMPILER__cpp__Debug D$:/cp
   OBJECT_DIR = CMakeFiles\cpp_.dir
   OBJECT_FILE_DIR = CMakeFiles\cpp_.dir
 
+build CMakeFiles/cpp_.dir/BST_practice.cpp.obj: CXX_COMPILER__cpp__Debug D$:/cpp_practice/BST_practice.cpp || cmake_object_order_depends_target_cpp_
+  DEP_FILE = CMakeFiles\cpp_.dir\BST_practice.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cpp_.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp_.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cpp_
@@ -87,7 +93,7 @@ build CMakeFiles/cpp_.dir/assignment_n2.cpp.obj: CXX_COMPILER__cpp__Debug D$:/cp
 #############################################
 # Link the executable cpp_.exe
 
-build cpp_.exe: CXX_EXECUTABLE_LINKER__cpp__Debug CMakeFiles/cpp_.dir/linkedlist.cpp.obj CMakeFiles/cpp_.dir/operator_practice.cpp.obj CMakeFiles/cpp_.dir/assignment_n1.cpp.obj CMakeFiles/cpp_.dir/priority_queue.cpp.obj CMakeFiles/cpp_.dir/assignment_n2.cpp.obj
+build cpp_.exe: CXX_EXECUTABLE_LINKER__cpp__Debug CMakeFiles/cpp_.dir/linkedlist.cpp.obj CMakeFiles/cpp_.dir/operator_practice.cpp.obj CMakeFiles/cpp_.dir/assignment_n1.cpp.obj CMakeFiles/cpp_.dir/priority_queue.cpp.obj CMakeFiles/cpp_.dir/assignment_n2.cpp.obj CMakeFiles/cpp_.dir/BST_practice.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cpp_.dir

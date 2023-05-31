@@ -2,7 +2,6 @@
 #include <vector>
 
 
-
 template<class T>
 struct Node {
     T data;
@@ -156,56 +155,56 @@ struct Stack {
 };
 
 int main() {
-    Queue<int> que;
-    que.empty(); //비어야함
-    que.pop();  //비어야함
-    que.front(); //비어야함
-    que.push(1); //1
-    que.push(2); //1 2
-    que.push(3); // 1 2 3
-    que.push(4); // 1 2 3 4
-    que.push(5); // 1 2 3 4 5
-    que.front(); //1
-    que.pop(); //2 3 4 5
-    que.front(); //2
-    que.pop(); // 3 4 5
-    que.front(); //3
-    que.push(6); // 3 4 5 6
-    que.front(); //3
-    que.empty(); //비면 안됨
-    que.pop();
-    que.pop();
-    que.pop();
-    que.front(); //6
-    que.pop(); //비어야함
-    que.front(); //비어야함
-    que.pop(); //비어야함
-    que.empty(); //비어야함
-
-    Stack<int> stack;
-    stack.empty(); //비어야함
-    stack.pop();  //비어야함
-    stack.top(); //비어야함
-    stack.push(1); //1
-    stack.push(2); //1 2
-    stack.push(3); // 1 2 3
-    stack.push(4); // 1 2 3 4
-    stack.push(5); // 1 2 3 4 5
-    stack.top(); //5
-    stack.pop(); //1 2 3 4
-    stack.top(); //4
-    stack.pop(); // 1 2 3
-    stack.top(); //3
-    stack.push(6); // 1 2 3 6
-    stack.top(); //6
-    stack.empty(); //비면 안됨
-    stack.pop();
-    stack.pop();
-    stack.pop();
-    stack.top(); //1
-    stack.pop(); //비어야함
-    stack.top(); //비어야함
-    stack.pop(); //비어야함
-    stack.empty(); //비어야함
+//    Queue<int> que;
+//    que.empty(); //비어야함
+//    que.pop();  //비어야함
+//    que.front(); //비어야함
+//    que.push(1); //1
+//    que.push(2); //1 2
+//    que.push(3); // 1 2 3
+//    que.push(4); // 1 2 3 4
+//    que.push(5); // 1 2 3 4 5
+//    que.front(); //1
+//    que.pop(); //2 3 4 5
+//    que.front(); //2
+//    que.pop(); // 3 4 5
+//    que.front(); //3
+//    que.push(6); // 3 4 5 6
+//    que.front(); //3
+//    que.empty(); //비면 안됨
+//    que.pop();
+//    que.pop();
+//    que.pop();
+//    que.front(); //6
+//    que.pop(); //비어야함
+//    que.front(); //비어야함
+//    que.pop(); //비어야함
+//    que.empty(); //비어야함
+//
+//    Stack<int> stack;
+//    stack.empty(); //비어야함
+//    stack.pop();  //비어야함
+//    stack.top(); //비어야함
+//    stack.push(1); //1
+//    stack.push(2); //1 2
+//    stack.push(3); // 1 2 3
+//    stack.push(4); // 1 2 3 4
+//    stack.push(5); // 1 2 3 4 5
+//    stack.top(); //5
+//    stack.pop(); //1 2 3 4
+//    stack.top(); //4
+//    stack.pop(); // 1 2 3
+//    stack.top(); //3
+//    stack.push(6); // 1 2 3 6
+//    stack.top(); //6
+//    stack.empty(); //비면 안됨
+//    stack.pop();
+//    stack.pop();
+//    stack.pop();
+//    stack.top(); //1
+//    stack.pop(); //비어야함
+//    stack.top(); //비어야함
+//    stack.pop(); //비어야함
+//    stack.empty(); //비어야함
 }
 
